@@ -1,7 +1,7 @@
 "use client";
 
-import { useLogoutMutation, useMeQuery } from "@/services/auth.api";
-import { getApiErrorMessage } from "@/utils/api-error";
+import { useLogoutMutation, useMeQuery } from "@services/auth.api";
+import { getApiErrorMessage } from "@utils/api-error";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 

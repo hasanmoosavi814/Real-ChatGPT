@@ -1,5 +1,5 @@
 import { Message } from "@/types/message";
-import { cn } from "@/lib/utils";
+import { cn } from "@lib/utils";
 
 export const MessageBubble = ({ message }: { message: Message }) => {
   const isUser = message.role === "USER";

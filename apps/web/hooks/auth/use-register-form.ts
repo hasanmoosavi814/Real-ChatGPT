@@ -1,8 +1,8 @@
 "use client";
 
-import { registerSchema, RegisterFormValues } from "@/schemas/auth.schema";
-import { useRegisterMutation } from "@/services/auth.api";
-import { getApiErrorMessage } from "@/utils/api-error";
+import { registerSchema, RegisterFormValues } from "@schemas/auth.schema";
+import { useRegisterMutation } from "@services/auth.api";
+import { getApiErrorMessage } from "@utils/api-error";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";

@@ -1,6 +1,6 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@ui/card";
 import { TAuthCardProps } from "@/types";
-import { AppLogo } from "@/components/elements/app-logo";
+import { AppLogo } from "@elements/app-logo";
 
 export const AuthCard = ({ title, description, children }: TAuthCardProps) => {
   return (

@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { Metadata } from "next";
 
-import AppProvider from "@/providers/app-provider";
+import AppProvider from "@providers/app-provider";
 
 import "./globals.css";
 

@@ -1,9 +1,9 @@
 "use client";
 
-import { useCreateConversationMutation } from "@/services/conversations.api";
-import { CreateConversationFormValues } from "@/schemas/chat.schema";
-import { createConversationSchema } from "@/schemas/chat.schema";
-import { getApiErrorMessage } from "@/utils/api-error";
+import { useCreateConversationMutation } from "@services/conversations.api";
+import { CreateConversationFormValues } from "@schemas/chat.schema";
+import { createConversationSchema } from "@schemas/chat.schema";
+import { getApiErrorMessage } from "@utils/api-error";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";

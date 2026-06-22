@@ -1,7 +1,7 @@
 import { TChatConversationPageProps } from "@/types";
-import { MessageComposer } from "@/components/modules/chat/message-composer";
-import { MessageList } from "@/components/modules/chat/message-list";
-import { ChatShell } from "@/components/modules/chat/chat-shell";
+import { MessageComposer } from "@modules/chat/message-composer";
+import { MessageList } from "@modules/chat/message-list";
+import { ChatShell } from "@modules/chat/chat-shell";
 
 const ChatConversationPage = async ({ params }: TChatConversationPageProps) => {
   const { conversationId } = await params;

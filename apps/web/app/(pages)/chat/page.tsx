@@ -1,6 +1,6 @@
 import { MessageSquarePlus } from "lucide-react";
-import { EmptyState } from "@/components/elements/empty-state";
-import { ChatShell } from "@/components/modules/chat/chat-shell";
+import { EmptyState } from "@elements/empty-state";
+import { ChatShell } from "@modules/chat/chat-shell";
 
 const ChatPage = () => {
   return (

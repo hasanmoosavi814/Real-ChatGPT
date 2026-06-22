@@ -1,11 +1,11 @@
 "use client";
 
-import { Field, FieldError, FieldLabel } from "@/components/ui/field";
+import { Field, FieldError, FieldLabel } from "@ui/field";
 import { useSendMessageForm } from "@/hooks/chat/use-send-message-form";
 import { SendHorizontal } from "lucide-react";
 import { Controller } from "react-hook-form";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
+import { Textarea } from "@ui/textarea";
+import { Button } from "@ui/button";
 
 export const MessageComposer = ({
   conversationId,

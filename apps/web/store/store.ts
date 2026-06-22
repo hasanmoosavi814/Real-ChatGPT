@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { aiHealthApi } from "@/services/health.api";
-import { api } from "@/services/api";
+import { aiHealthApi } from "@services/health.api";
+import { api } from "@services/api";
 
 export const store = configureStore({
   reducer: {

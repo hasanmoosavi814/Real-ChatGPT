@@ -1,12 +1,12 @@
 "use client";
 
-import { useGetConversationsQuery } from "@/services/conversations.api";
-import { NewConversationDialog } from "@/components/modules/chat/new-conversation-dialog";
-import { ConversationItem } from "@/components/modules/chat/conversation-item";
-import { LoadingState } from "@/components/elements/loading-state";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
-import { AppLogo } from "@/components/elements/app-logo";
+import { useGetConversationsQuery } from "@services/conversations.api";
+import { NewConversationDialog } from "@modules/chat/new-conversation-dialog";
+import { ConversationItem } from "@modules/chat/conversation-item";
+import { LoadingState } from "@elements/loading-state";
+import { ScrollArea } from "@ui/scroll-area";
+import { Separator } from "@ui/separator";
+import { AppLogo } from "@elements/app-logo";
 
 export const ConversationSidebar = () => {
   const { data, isLoading } = useGetConversationsQuery();

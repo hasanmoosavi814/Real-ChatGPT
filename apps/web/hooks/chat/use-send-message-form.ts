@@ -1,9 +1,9 @@
 "use client";
 
-import { useSendMessageMutation } from "@/services/messages.api";
-import { SendMessageFormValues } from "@/schemas/chat.schema";
-import { getApiErrorMessage } from "@/utils/api-error";
-import { sendMessageSchema } from "@/schemas/chat.schema";
+import { useSendMessageMutation } from "@services/messages.api";
+import { SendMessageFormValues } from "@schemas/chat.schema";
+import { getApiErrorMessage } from "@utils/api-error";
+import { sendMessageSchema } from "@schemas/chat.schema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";

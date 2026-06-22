@@ -1,12 +1,12 @@
 "use client";
 
-import { FieldGroup, FieldLabel } from "@/components/ui/field";
-import { Field, FieldError } from "@/components/ui/field";
+import { FieldGroup, FieldLabel } from "@ui/field";
+import { Field, FieldError } from "@ui/field";
 import { useLoginForm } from "@/hooks/auth/use-login-form";
 import { Controller } from "react-hook-form";
 import { Loader2 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@ui/button";
+import { Input } from "@ui/input";
 
 import Link from "next/link";
 

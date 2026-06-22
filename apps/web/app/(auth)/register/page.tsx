@@ -1,5 +1,5 @@
-import { RegisterForm } from "@/components/modules/auth/register-form";
-import { AuthCard } from "@/components/modules/auth/auth-card";
+import { RegisterForm } from "@modules/auth/register-form";
+import { AuthCard } from "@modules/auth/auth-card";
 
 const RegisterPage = () => {
   return (

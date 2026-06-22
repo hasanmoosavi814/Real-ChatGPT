@@ -1,10 +1,10 @@
 "use client";
 
-import { useGetConversationMessagesQuery } from "@/services/messages.api";
-import { MessageBubble } from "@/components/modules/chat/message-bubble";
-import { LoadingState } from "@/components/elements/loading-state";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { EmptyState } from "@/components/elements/empty-state";
+import { useGetConversationMessagesQuery } from "@services/messages.api";
+import { MessageBubble } from "@modules/chat/message-bubble";
+import { LoadingState } from "@elements/loading-state";
+import { ScrollArea } from "@ui/scroll-area";
+import { EmptyState } from "@elements/empty-state";
 
 export const MessageList = ({ conversationId }: { conversationId: string }) => {
   const { data, isLoading } = useGetConversationMessagesQuery(conversationId);

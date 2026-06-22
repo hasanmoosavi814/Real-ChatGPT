@@ -1,9 +1,9 @@
 "use client";
 
-import { ConversationSidebar } from "@/components/modules/chat/conversation-sidebar";
+import { ConversationSidebar } from "@modules/chat/conversation-sidebar";
 import { useChatSession } from "@/hooks/chat/use-chat-session";
-import { LoadingState } from "@/components/elements/loading-state";
-import { ChatHeader } from "@/components/modules/chat/chat-header";
+import { LoadingState } from "@elements/loading-state";
+import { ChatHeader } from "@modules/chat/chat-header";
 import { ReactNode } from "react";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
