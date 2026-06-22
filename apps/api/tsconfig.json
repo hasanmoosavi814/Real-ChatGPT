@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@app/*": ["modules/app/*"],
+      "@auth/*": ["modules/auth/*"],
+      "@users/*": ["modules/users/*"],
+      "@cache/*": ["modules/cache/*"],
+      "@health/*": ["modules/health/*"],
+      "@common/*": ["modules/common/*"],
+      "@prisma/*": ["modules/prisma/*"],
+      "@logging/*": ["modules/logging/*"],
+      "@messages/*": ["modules/messages/*"],
+      "@ai-client/*": ["modules/ai-client/*"],
+      "@web-socket/*": ["modules/web-socket/*"],
+      "@conversations/*": ["modules/conversations/*"],
+
+      "@utils/*": ["common/utils/*"],
+      "@ctypes/*": ["common/types/*"],
+      "@filters/*": ["common/filters/*"],
+      "@interceptors/*": ["common/interceptors/*"]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "npm@11.3.0",
+  "description": "",
+  "homepage": "https://github.com/hasanmoosavi814/Real-ChatGPT#readme",
+  "bugs": {
+    "url": "https://github.com/hasanmoosavi814/Real-ChatGPT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanmoosavi814/Real-ChatGPT.git"
+  },
+  "license": "ISC",
+  "author": "hasan moosavi",
+  "type": "commonjs",
+  "workspaces": [
+    "apps/api",
+    "apps/ai-service",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "api:dev": "turbo run dev --filter=api",
+    "ai:dev": "turbo run dev --filter=ai-service",
+    "web:dev": "turbo run dev --filter=web",
+    "api:generate": "npm run generate -w api",
+    "api:migrate": "npm run migrate -w api",
+    "api:studio": "npm run studio -w api"
+  },
+  "devDependencies": {
+    "eslint": "^10.5.0",
+    "prettier": "^3.8.4",
+    "turbo": "^2.9.18",
+    "typescript": "^6.0.3"
+  }
+}
